@@ -198,36 +198,6 @@ h4 { font-size: 18px; font-weight: 650; }
 .ticks li { padding-left: 30px; position: relative; }
 .ticks li::before { content: "✓"; position: absolute; left: 0; color: var(--live); font-weight: 700; }
 
-/* Pricing */
-.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; align-items: stretch; }
-.plan {
-  position: relative; display: flex; flex-direction: column;
-  background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 32px 28px;
-}
-.plan--featured { border: 2px solid var(--accent); box-shadow: var(--shadow); }
-.plan__tag {
-  position: absolute; top: -13px; left: 28px;
-  background: var(--accent); color: var(--accent-ink);
-  font: 600 12px var(--mono); padding: 4px 12px; border-radius: 999px;
-}
-.plan h3 { font-size: 22px; }
-.plan__for { color: var(--muted); margin: 6px 0 0; font-size: 15px; }
-.plan__price { font-size: 38px; font-weight: 800; letter-spacing: -0.03em; margin: 20px 0; }
-.plan__price span { font-size: 15px; font-weight: 500; color: var(--muted); margin-left: 6px; letter-spacing: 0; }
-.plan ul { list-style: none; padding: 20px 0 0; margin: 0 0 28px; border-top: 1px solid var(--line); display: grid; gap: 10px; flex: 1; }
-.plan li { padding-left: 26px; position: relative; font-size: 15px; }
-.plan li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-family: var(--mono); }
-
-.offer {
-  display: flex; align-items: center; gap: 14px; margin: 32px 0 0;
-  padding: 16px 20px; border-radius: 14px;
-  background: color-mix(in srgb, var(--accent) 10%, var(--surface));
-  border: 1px dashed color-mix(in srgb, var(--accent) 50%, transparent);
-  font-weight: 500;
-}
-.offer__badge { background: var(--accent); color: var(--accent-ink); font: 700 13px var(--mono); padding: 4px 10px; border-radius: 8px; flex-shrink: 0; }
-.note { color: var(--muted); font-size: 14px; margin: 14px 0 0; }
-
 /* FAQ */
 .faq { display: grid; gap: 12px; margin-top: 8px; }
 .faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 22px; }
@@ -249,7 +219,7 @@ h4 { font-size: 18px; font-weight: 650; }
 @media (max-width: 960px) {
   .hero__grid { grid-template-columns: 1fr; }
   .hero__visual { justify-self: center; max-width: 420px; }
-  .cards, .plans { grid-template-columns: 1fr 1fr; }
+  .cards { grid-template-columns: 1fr 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
   .about { grid-template-columns: 1fr; gap: 32px; }
   .about__badge { max-width: 220px; }
@@ -261,7 +231,7 @@ h4 { font-size: 18px; font-weight: 650; }
   .hero { padding: 48px 0; }
   .section { padding: 64px 0; }
   .stats { grid-template-columns: repeat(2, auto); gap: 20px 36px; }
-  .cards, .plans, .steps { grid-template-columns: 1fr; }
+  .cards, .steps { grid-template-columns: 1fr; }
   .lead { font-size: 17px; }
 }
 

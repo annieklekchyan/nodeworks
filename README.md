@@ -1,6 +1,6 @@
 # Nodeworks
 
-Business-card website for Nodeworks: fast, affordable websites for small businesses on a monthly subscription.
+Business-card website for Nodeworks: fast, high-quality websites for small businesses. Pricing is agreed per project.
 
 Plain static HTML/CSS/JS with no build step. Languages: Armenian, Russian and English.
 
