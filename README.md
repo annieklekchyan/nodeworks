@@ -1,6 +1,6 @@
 # Nodeworks
 
-Business-card website for Nodeworks: fast, high-quality websites for small businesses. Pricing is agreed per project.
+Business-card website for Nodeworks: websites, apps and AI tools, built fast with 10+ years of IT experience and AI. Pricing is agreed per project.
 
 Plain static HTML/CSS/JS with no build step. Languages: Armenian, Russian and English.
 
@@ -8,7 +8,7 @@ Plain static HTML/CSS/JS with no build step. Languages: Armenian, Russian and En
 
 - `index.html`: page structure, with the English text as the default
 - `script.js`: Armenian and Russian translations (`I18N`) and contact links (`CONTACT`)
-- `styles.css`: design tokens, layout, and light/dark themes
+- `styles.css`: design tokens and layout (bright, light theme)
 
 ## Before launch
 
