@@ -202,9 +202,11 @@ h4 { font-size: 18px; font-weight: 700; }
 .profile__avatar {
   position: relative; width: 120px; height: 120px; margin: 30px auto 0; border-radius: 50%;
   display: grid; place-items: center;
-  background: var(--grad-cool); color: #fff; font-size: 40px; font-weight: 800; letter-spacing: -0.02em;
+  background: var(--grad-cool); color: #fff;
   border: 5px solid #fff;
 }
+.profile__avatar svg { width: 56px; height: 56px; }
+.profile__avatar svg circle { fill: #fff; }
 .profile__name { font-size: 22px; margin-top: 18px; }
 .profile__role { color: var(--muted); margin: 4px 0 0; font-size: 15px; }
 .profile__tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 20px; }
